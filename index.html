@@ -29,9 +29,9 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#first">Personal Projects</a></li>
-							<li><a href="#second">Work Projects</a></li>
-							<li><a href="#cta">Skills</a></li>
+							<li><a href="#personal_projects">Personal Projects</a></li>
+							<li><a href="#work_projects">Work Projects</a></li>
+							<li><a href="#skills">Skills</a></li>
 						</ul>
 					</nav>
 
@@ -49,16 +49,14 @@
 											Proficient in SQL, Python, R, Tableau, and Excel, with a strong foundation in advanced analytics, statistical modeling, and managing large-scale datasets. Currently a Product Information Analyst II 
 											at Nike, where I develop and implement innovative solutions to automate data processes, significantly reducing manual workload and improving data accuracy. Pursuing a Master’s in Analytics from Georgia Tech, 
 											and earned a Bachelor of Science in Quantitative Analysis of Markets and Organizations from the University of Utah (Magna Cum Laude), with minors in Computer Science and Writing & Rhetoric Studies.</p>
-										<ul class="actions">
-											<li><a href="generic.html" class="button">Learn More</a></li>
-										</ul>
+									
 									</div>
 									<span class="image"><img src="images/lamb_miranda_hr.JPG" alt="" /></span>
 								</div>
 							</section>
 
 						<!-- Personal Projects -->
-							<section id="first" class="main special">
+							<section id="personal_projects" class="main special">
 								<header class="major">
 									<h2>Personal Projects</h2>
 								</header>
@@ -67,10 +65,26 @@
 										<img src="images/wageGapPlot.jpeg" alt="Sentimental Icon" class="image fit">
 
 										<h3>Quantifying the Gender Wage Gap across Industry</h3>
-										<p>CHECK 1 R, dplyr, ggplot2, Data Cleaning, Linear Modeling, Random Forest, Data Visualization</p>
-										<p>Analyzed gender wage disparities across industries using regression modeling, visualization, and statistical inference, based on IPUMs 2023 census data. Identified male income premium (wage gap) in each industry and quantified the drivers contributing to wage inequality.</p>
+										<p>R, dplyr, ggplot2, Data Cleaning, Linear Modeling, Random Forest, Data Visualization</p>
+										<p>Analyzed gender wage disparities across industries using regression modeling, visualization, and statistical inference on 2023 census data. 
+											Conducted exploratory analysis to assess skewness and outliers, then built a modeling pipeline using log–linear regression and a Gamma GLM with gender–industry interaction 
+											terms to estimate within-industry wage gaps while controlling for covariates such as education, experience, occupation, and hours worked. Identified the male income premium 
+											in each industry and quantified the drivers contributing most to inequality. Results revealed wide variability in gaps across sectors—from a 71.6% premium in Agriculture/Mining 
+											to just 13.3% in the Military—highlighting where inequities are most pronounced and where targeted policy or employer action may be most impactful.</p>
 										<h4><a href="https://mirandaml30.github.io/assets/Wage%20gap%20across%20industries.pdf" class="button" target="_blank" rel="noopener noreferrer"><span class="label">Read the Report</span></a></h4>
 										<h4><a href="https://github.com/mirandaml30/Wage-Gap-Across-Industry" class="button" target="_blank" rel="noopener noreferrer"><span class="label">GitHub & Code</span></a></h4>	
+									</li>
+									<li>
+										<img src="images/olist.png" alt="Sentimental Icon" class="image fit">
+
+										<h3>Olist E-commerce SQL Analysis</h3>
+										<p>SQL (PostgreSQL), CTEs, Window Functions, Aggregation, Segmentation, Analytics Engineering</p>
+										<p>Built reusable order- and customer-level analytical tables from raw e-commerce transaction data to analyze revenue concentration, customer lifetime value (LTV), 
+											geographic performance, and retention. Applied multi-level aggregation, window functions, and percentile-based segmentation to identify high-value customer cohorts 
+											and revenue drivers. Findings reveal highly concentrated revenue among top customers, low repeat purchase rates, and meaningful geographic and seasonal patterns with 
+											implications for customer retention and growth strategy.</p>
+										<h4><a href="https://github.com/mirandaml30/olist-customer-analytics/blob/main/README.md" class="button" target="_blank" rel="noopener noreferrer"><span class="label">Write-up/README</span></a></h4>
+										<h4><a href="https://github.com/mirandaml30/olist-customer-analytics/tree/main" class="button" target="_blank" rel="noopener noreferrer"><span class="label">GitHub & Code</span></a></h4>
 									</li>
 									<li>
 										<img src="images/roeVwadePlot.png" alt="Sentimental Icon" class="image fit">
@@ -86,9 +100,15 @@
 										<h4><a href="https://github.com/mirandaml30/Effect-of-Abortion-Ban-on-Women-s-Incomes" class="button" target="_blank" rel="noopener noreferrer"><span class="label">GitHub & Code</span></a></h4>	
 									</li>
 									<li>
-										<span class="icon major style5 fa-gem"></span>
-										<h3>Dolor nullam</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+										<img src="images/ChurnChart.png" alt="Sentimental Icon" class="image fit">
+
+										<h3>Customer Churn Prediction & Behavioral Insights</h3>
+										<p>R, tidyverse, caret, glmnet, Logistic Regression, EDA, Predictive Modeling, ROC Analysis, Data Visualization</p>
+										<p>Analyzed multi-year customer transaction and engagement data for a large retail organization to identify the strongest predictors of customer churn (1% churn rate). Built a full R workflow 
+											including exploratory analysis, feature evaluation, logistic regression modeling, multicollinearity diagnostics, and model validation using ROC curves and cross-validated regularized regression. 
+											Findings revealed that annual income, total purchases last year, and referral score were the most influential predictors—respectively increasing churn likelihood by 0.78% and decreasing it by 1.22% 
+											and 0.91%. Insights informed targeted retention strategies, helping the business allocate marketing resources toward high-risk, high-value customer segments.</p>
+											
 									</li>
 								</ul>
 							</section>
@@ -174,7 +194,7 @@
 					<footer id="footer">
 						<section>
 							<h2>Get In Touch</h2>
-							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+							<p>I'm always open to new opportunites, collaborations, and connections, both personal and professional. Don't hesitate to reach out!</p>
 						</section>
 						<section>
 							<h2>Contact Information</h2>
